@@ -1,0 +1,35 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.content-con {
+    display: flex;
+    justify-content: space-between;
+}
+.content-con:first-child, .content-con:last-child {
+    padding:  5rem 0;
+}
+.content-home-l {
+
+}
+.content-home-l img{
+    height: 300px;
+    width: 450px;
+    border-radius: 10px;
+}
+.content-home-r {
+    padding: 0 2rem;
+    text-align: left;
+}
+
+@media screen and (max-width: 480px) {
+    .content-con {
+        flex-direction: column;
+    }
+    .content-home-l img {
+        padding: 0 2rem;
+    }
+    .content-home-r {
+        padding: 0 2rem;
+    }
+}
