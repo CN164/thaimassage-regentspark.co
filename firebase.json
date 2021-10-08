@@ -1,6 +1,6 @@
 {
   "firebase": "app-name",
-  "public": "dist",
+  "public": "build",
   "ignore": [
     "firebase.json",
     "**/.*",
