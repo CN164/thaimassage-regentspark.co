@@ -1,0 +1,43 @@
+.content-T {
+    max-width: 100%;
+    margin: 0 auto;
+    background: #333;
+}
+.content-con {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 1rem !important;
+}
+.content-l img {
+    width: auto;
+    height: 300px;
+    border-radius: 10px;
+}
+.content-r h2 {
+    color: #FFCF01;
+    font-family: Sedan;
+    font-style: normal;
+    font-weight: normal;
+}
+.content-r p {
+    color: #f5eece;
+    font-family: Sedan;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+.content-r {
+    padding-left: 1.5rem;
+}
+
+@media screen and (max-width: 480px) {
+    .content-con {
+        flex-direction: column;
+        padding: 0.5rem 1rem !important;
+    }
+    .content-l img {
+        width: auto;
+        height: 300px;
+        border-radius: 10px;
+    }
+}

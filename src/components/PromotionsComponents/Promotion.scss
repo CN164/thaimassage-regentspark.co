@@ -1,0 +1,31 @@
+.contest-Promotions {
+    width: 100%;
+    height: 100%;
+    background: #333;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.content-center {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+}
+.content-center img {
+    max-width: 100%;
+    max-height: 500px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .contest-Promotions {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .content-center {
+        width: 380px;
+        height: 480px;
+    }
+}
