@@ -10,6 +10,9 @@ const fadeImages = [
 function Home() {
     return (
         <div className="content">
+            <head>
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6043505553901621" crossorigin="anonymous"></script>
+            </head>
             <div className="slide-main">
                 <Fade style={{ width: "100%", height: "100%" }}>
                     <div className="each-fade">
@@ -35,7 +38,6 @@ function Home() {
                     </div>
                 </Fade>
             </div>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6043505553901621" crossorigin="anonymous"></script>
         </div>
     )
 }

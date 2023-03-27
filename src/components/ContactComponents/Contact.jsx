@@ -5,6 +5,9 @@ import { FaFacebookF } from "react-icons/fa";
 function Contact() {
     return (
         <div className='content-contack'>
+            <head>
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6043505553901621" crossorigin="anonymous"></script>
+            </head>
             <div className='content-con'>
                 <div className='con-Map'>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.245315598005!2d151.0210796152106!3d-33.883335380652255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12bc5fe5248fdd%3A0x4f1bf24a365801b7!2zNDE1IFBhcmsgUmQsIFJlZ2VudHMgUGFyayBOU1cgMjE0MyDguK3guK3guKrguYDguJXguKPguYDguKXguLXguKI!5e0!3m2!1sth!2sth!4v1633767041707!5m2!1sth!2sth" allowfullscreen="" loading="lazy"></iframe>
@@ -16,7 +19,6 @@ function Contact() {
                     <a href="https://www.facebook.com/Regents-Park-Thai-Massage-111906614275663" className="cta-btn" target="_blank"><FaFacebookF /> Regents Patk Thai Massage</a>
                 </div>
             </div>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6043505553901621" crossorigin="anonymous"></script>
         </div>
     )
 }
