@@ -20,6 +20,8 @@ function Banner() {
                     </div>
                 </div>
             </div>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6043505553901621"
+        crossorigin="anonymous"></script>
         </div>
     )
 }

@@ -16,6 +16,7 @@ function Contact() {
                     <a href="https://www.facebook.com/Regents-Park-Thai-Massage-111906614275663" className="cta-btn" target="_blank"><FaFacebookF /> Regents Patk Thai Massage</a>
                 </div>
             </div>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6043505553901621" crossorigin="anonymous"></script>
         </div>
     )
 }
