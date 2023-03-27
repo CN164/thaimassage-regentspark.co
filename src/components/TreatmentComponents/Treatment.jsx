@@ -15,7 +15,9 @@ function Treatment() {
                     </p>
                 </div>
             </section>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6043505553901621" crossorigin="anonymous"></script>
+            <head>
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6043505553901621" crossorigin="anonymous"></script>
+            </head>
             <section className="content-con">
                 <div className="content-l">
                     <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1740&q=80" alt="Relaxing Oil Massage"/>
@@ -27,7 +29,9 @@ function Treatment() {
                     </p>
                 </div>
             </section>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6043505553901621" crossorigin="anonymous"></script>
+            <head>
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6043505553901621" crossorigin="anonymous"></script>
+            </head>
             <section className="content-con">
                 <div className="content-l">
                     <img src="https://www.painawayclinic.com/wp-content/uploads/2020/07/blog-deep-tissue-massage-therapy-bangkok-everything-you-need-to-know.jpg" alt="Deep Tissue Massage"/>
@@ -39,7 +43,9 @@ function Treatment() {
                     </p>
                 </div>
             </section>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6043505553901621" crossorigin="anonymous"></script>
+            <head>
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6043505553901621" crossorigin="anonymous"></script>
+            </head>
             <section className="content-con">
                 <div className="content-l">
                     <img src="https://images.unsplash.com/photo-1600334129128-685c5582fd35?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt="Hot stone"/>
@@ -51,7 +57,9 @@ function Treatment() {
                     </p>
                 </div>
             </section>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6043505553901621" crossorigin="anonymous"></script>
+            <head>
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6043505553901621" crossorigin="anonymous"></script>
+            </head>
             <section className="content-con">
                 <div className="content-l">
                     <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_lossy,ret_img,w_980/https://letsrelaxspa.com/wp-content/uploads/2021/06/shutterstock_1033952881.jpg" alt="Foot Reflexology"/>
@@ -64,7 +72,9 @@ function Treatment() {
                     </p>
                 </div>
             </section>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6043505553901621" crossorigin="anonymous"></script>
+            <head>
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6043505553901621" crossorigin="anonymous"></script>
+            </head>
         </div>
     )
 }

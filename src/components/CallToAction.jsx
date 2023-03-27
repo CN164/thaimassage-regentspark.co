@@ -5,6 +5,9 @@ import { FaFacebookF } from "react-icons/fa";
 function CallToAction() {
     return (
         <div className="cta-bg">
+            <head>
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6043505553901621" crossorigin="anonymous"></script>
+            </head>
             <div className='liner' />
             <div className="overlay"></div>
             <div className="container">
@@ -19,8 +22,6 @@ function CallToAction() {
                 <img src="" alt="" />
             </div>
             </div>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6043505553901621"
-        crossorigin="anonymous"></script>
         </div>
     )
 }
