@@ -21,7 +21,7 @@ function Header() {
                     <div className="logo-container">
                         <a href="/">
                             <img src="./Logo_web.png" alt="logo_Thaimassage" />
-                            <b>Regents Park ThaiMassage</b>
+                            <b>Amara Remedial ThaiMassage</b>
                         </a>
                     </div>
                     <ul className={click ? "menu active" : "menu"}>

@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "thaimassage-regentspark"
-  }
+    "default": "amara-remedial-thaimassage"
+  },
+  "targets": {},
+  "etags": {}
 }
