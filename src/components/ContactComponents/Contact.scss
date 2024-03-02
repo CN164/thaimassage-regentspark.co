@@ -9,6 +9,7 @@
     display: flex;
     justify-content: space-around;
     width: auto;
+    flex-wrap: wrap;
 }
 .con-Map iframe {
     width: 600px;
@@ -26,12 +27,19 @@
     color: #fff;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1024px) {
     .content-contack {
         padding: 1.5rem 1.5rem;
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .content-con {
+        flex-wrap: wrap;
+        .con-Map {
+            padding-right: 10px;
+        }
     }
 
     .con-Map iframe {

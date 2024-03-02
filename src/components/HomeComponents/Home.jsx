@@ -1,45 +1,63 @@
 import React from 'react'
 import './Home.scss'
 import { Fade } from "react-slideshow-image";
+import { Slide } from 'react-slideshow-image';
 import "react-slideshow-image/dist/styles.css";
+import { AiFillPlusCircle } from "react-icons/ai";
 
 const fadeImages = [
-    "/banner_1.jpg","https://images.unsplash.com/photo-1600334129128-685c5582fd35?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80","https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1740&q=80","/s1.jpg","/s2.jpg","/s3.jpg","/s4.jpg"
+  {
+    url: "/s1.jpg"
+  },
+  {
+    url: "/s2.jpg"
+  },
+  {
+    url: "/s3.jpg"
+  },
+  {
+    url: "/s4.jpg"
+  },
+  {
+    url: "/s5.jpg"
+  }
 ];
 
 function Home() {
-    return (
-        <div className="content">
-            <head>
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6043505553901621" crossorigin="anonymous"></script>
-            </head>
-            <div className="slide-main">
-                <Fade style={{ width: "100%", height: "100%" }}>
-                    <div className="each-fade">
-                        <img src={fadeImages[0]} />
-                    </div>
-                    <div className="each-fade">
-                        <img src={fadeImages[1]} />
-                    </div>
-                    <div className="each-fade">
-                        <img src={fadeImages[2]} />
-                    </div>
-                    <div className="each-fade">
-                        <img src={fadeImages[3]} />
-                    </div>
-                    <div className="each-fade">
-                        <img src={fadeImages[4]} />
-                    </div>
-                    <div className="each-fade">
-                        <img src={fadeImages[5]} />
-                    </div>
-                    <div className="each-fade">
-                        <img src={fadeImages[6]} />
-                    </div>
-                </Fade>
+  return (
+    <div className="content">
+      <head>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6043505553901621" crossorigin="anonymous"></script>
+      </head>
+      <div className="slide-main">
+        <Slide style={{ width: '100%', hight: '100%' }}>
+          {fadeImages.map((fadeImage, index) => (
+            <div className="each-fade" key={index}>
+              <img src={fadeImage.url} />
             </div>
-        </div>
-    )
+          ))}
+        </Slide>
+      </div>
+      <div className="hicaps-main">
+        <AiFillPlusCircle className="font-aifillplus" />
+        <span className="text-span">HICAPS</span>
+        <AiFillPlusCircle className="font-aifillplus" />
+      </div>
+      <div className="text-caps-main">
+        <span className="text-caps">
+          HEALTH FUND REBATE AVAILABLE
+        </span>
+      </div>
+      <div className="text-caps-main">
+        <span className="text-caps">
+          (*Conditions apply)
+        </span>
+      </div>
+      <div className="image-gif-main">
+        <img className="image-gif" src="/gif-banner.jpg" alt="gif-Amara Remedial ThaiMassage" />
+      </div>
+    </div>
+  )
 }
 
 export default Home

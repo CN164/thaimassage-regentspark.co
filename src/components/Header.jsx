@@ -20,7 +20,7 @@ function Header() {
                 <div className="header-con">
                     <div className="logo-container">
                         <a href="/">
-                            <img src="./Logo_web.png" alt="logo_Thaimassage" />
+                            <img src="./logo-preview.png" alt="logo_Thaimassage" />
                             <b>Amara Remedial ThaiMassage</b>
                         </a>
                     </div>
