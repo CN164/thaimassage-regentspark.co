@@ -5,24 +5,38 @@
     background: #1F1C1C;
     padding: 0 10rem;
 }
+
 .content-con {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     width: auto;
     flex-wrap: wrap;
     padding: 1.5rem 1.5rem;
+    gap: 5rem;
 }
+
 .con-Map iframe {
     width: 600px;
     height: 450px;
     border-radius: 10px;
 }
+
+.con-contact a {
+    text-decoration: none !important;
+}
+
+.con-contact label {
+    cursor: pointer;
+}
+
 .con-contact p {
     color: #FFCF01;
 }
+
 .con-contact label {
     color: #fff;
 }
+
 .telCall {
     text-decoration: none;
     color: #fff;
@@ -38,6 +52,7 @@
 
     .content-con {
         flex-wrap: wrap;
+
         .con-Map {
             padding-right: 10px;
         }
