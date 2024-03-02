@@ -14,7 +14,6 @@ function Header() {
     return (
         <div className="header">
             <head>
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6043505553901621" crossorigin="anonymous"></script>
             </head>
             <div className="container">
                 <div className="header-con">
@@ -43,8 +42,6 @@ function Header() {
                     </div>
                 </div>
             </div>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6043505553901621"
-        crossorigin="anonymous"></script>
         </div>
     )
 }

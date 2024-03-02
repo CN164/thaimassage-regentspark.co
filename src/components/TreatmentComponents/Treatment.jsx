@@ -16,7 +16,6 @@ function Treatment() {
                 </div>
             </section>
             <head>
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6043505553901621" crossorigin="anonymous"></script>
             </head>
             <section className="content-con">
                 <div className="content-l">
@@ -30,7 +29,6 @@ function Treatment() {
                 </div>
             </section>
             <head>
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6043505553901621" crossorigin="anonymous"></script>
             </head>
             <section className="content-con">
                 <div className="content-l">
@@ -44,7 +42,6 @@ function Treatment() {
                 </div>
             </section>
             <head>
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6043505553901621" crossorigin="anonymous"></script>
             </head>
             <section className="content-con">
                 <div className="content-l">
@@ -58,7 +55,6 @@ function Treatment() {
                 </div>
             </section>
             <head>
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6043505553901621" crossorigin="anonymous"></script>
             </head>
             <section className="content-con">
                 <div className="content-l">
@@ -73,7 +69,6 @@ function Treatment() {
                 </div>
             </section>
             <head>
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6043505553901621" crossorigin="anonymous"></script>
             </head>
         </div>
     )

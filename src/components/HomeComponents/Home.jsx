@@ -27,7 +27,6 @@ function Home() {
   return (
     <div className="content">
       <head>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6043505553901621" crossorigin="anonymous"></script>
       </head>
       <div className="slide-main">
         <Slide style={{ width: '100%', hight: '100%' }}>

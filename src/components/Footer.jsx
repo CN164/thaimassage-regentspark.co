@@ -6,7 +6,6 @@ function Footer() {
         <div className="footer">
             <p>Copyright 2021. All Rights Reserved.</p>
         <footer>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6043505553901621" crossorigin="anonymous"></script>
         </footer>
         </div>
     )
