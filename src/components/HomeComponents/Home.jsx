@@ -26,13 +26,11 @@ const fadeImages = [
 function Home() {
   return (
     <div className="content">
-      <head>
-      </head>
       <div className="slide-main">
         <Slide style={{ width: '100%', hight: '100%' }}>
           {fadeImages.map((fadeImage, index) => (
             <div className="each-fade" key={index}>
-              <img src={fadeImage.url} />
+              <img src={fadeImage.url} alt={`Amara Remedial Thai Massage slide ${index + 1}`} />
             </div>
           ))}
         </Slide>

@@ -8,13 +8,10 @@ function Header() {
 
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
-    console.log(click);
     const closeMobileMenu = () => setClick(false);
 
     return (
         <div className="header">
-            <head>
-            </head>
             <div className="container">
                 <div className="header-con">
                     <div className="logo-container">
