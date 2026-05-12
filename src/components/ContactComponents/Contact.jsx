@@ -1,10 +1,15 @@
 import React from 'react'
 import './Contact.scss'
 import { FaFacebookF } from "react-icons/fa";
+import { Helmet } from 'react-helmet-async';
 
 function Contact() {
     return (
         <div className='content-contack'>
+            <Helmet>
+                <title>Contact Us | Amara Remedial Thai Massage</title>
+                <meta name="description" content="Find us at 415 Park Road, Regents Park NSW 2143. Call 02-8772-6255 or 04-6696-3564. Open 7 days. HICAPS health fund rebates available." />
+            </Helmet>
             <div className='content-con'>
                 <div className='con-Map'>
                     <iframe title="Amara Remedial Thai Massage location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d207.01521467246064!2d151.02327313548506!3d-33.88338382833862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12bd384acf4229%3A0x14788145b6232fc0!2sAmara%20Remedial%20Thai%20Massage!5e0!3m2!1sth!2sth!4v1709367674795!5m2!1sth!2sth" allowfullscreen="" loading="lazy"></iframe>

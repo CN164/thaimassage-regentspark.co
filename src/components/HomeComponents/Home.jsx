@@ -3,6 +3,7 @@ import './Home.scss'
 import { Slide } from 'react-slideshow-image';
 import "react-slideshow-image/dist/styles.css";
 import { AiFillPlusCircle } from "react-icons/ai";
+import { Helmet } from 'react-helmet-async';
 
 const fadeImages = [
   {
@@ -25,6 +26,10 @@ const fadeImages = [
 function Home() {
   return (
     <div className="content">
+      <Helmet>
+        <title>Amara Remedial Thai Massage | Regents Park, Sydney</title>
+        <meta name="description" content="Professional Thai massage, remedial therapy, relaxing oil massage, deep tissue, hot stone and foot reflexology in Regents Park NSW. HICAPS health fund rebates available. Open 7 days." />
+      </Helmet>
       <div className="slide-main">
         <Slide style={{ width: '100%', hight: '100%' }}>
           {fadeImages.map((fadeImage, index) => (
