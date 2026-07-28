@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "amara-remedial-thaimassage",
     "public": "build",
     "trailingSlash": false,
     "ignore": [
