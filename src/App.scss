@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app-shell {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100vh;
+  min-height: 100dvh;
 }
 
-.App-link {
-  color: #61dafb;
+.app-main {
+  flex: 1 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Visible only when tabbed to — lets keyboard users jump past the nav */
+.skip-link {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  z-index: 999;
+  transform: translate(-50%, -120%);
+  padding: 0.7rem 1.25rem;
+  background: var(--gold);
+  color: #14120c;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border-radius: 0 0 var(--radius-sm) var(--radius-sm);
+  transition: transform 0.2s var(--ease);
+}
+
+.skip-link:focus-visible {
+  transform: translate(-50%, 0);
 }

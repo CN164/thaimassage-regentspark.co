@@ -9,11 +9,9 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-helmet-async": "^3.0.0",
-    "react-icon": "^1.0.0",
     "react-icons": "^4.2.0",
     "react-router-dom": "^5.3.0",
     "react-scripts": "^5.0.1",
-    "react-slideshow-image": "^3.5.1",
     "sass": "^1.42.1",
     "sass-loader": "^12.1.0",
     "web-vitals": "^1.0.1"
