@@ -11,7 +11,7 @@ function Treatment() {
     <div className="treatment-page">
       <Seo
         title="Our Treatments"
-        description="Traditional Thai massage, relaxing oil massage, deep tissue, hot stone and foot reflexology in Regents Park NSW. Experienced therapists, open 7 days."
+        description="Traditional Thai massage, relaxing oil massage, deep tissue and hot stone massage in Regents Park NSW. Experienced therapists, open 7 days."
         path="/Treatment"
         image={TREATMENTS[0].image}
         jsonLd={[
@@ -25,7 +25,7 @@ function Treatment() {
           <span className="eyebrow">{SITE.suburb}</span>
           <h1>Our Treatments</h1>
           <p>
-            Five ways to unwind or recover — every session is adjusted to the
+            Four ways to unwind or recover — every session is adjusted to the
             pressure and the problem areas you tell us about.
           </p>
         </div>

@@ -7,7 +7,14 @@ import { SITE } from '../../data/site'
 import { TREATMENTS } from '../../data/treatments'
 import { localBusinessLd, websiteLd } from '../../data/structuredData'
 
-const HERO_SLIDES = ['/s1.jpg', '/s2.jpg', '/s3.jpg', '/s4.jpg', '/s5.jpg']
+const HERO_SLIDES = [
+  '/new_01.jpg',
+  '/new_02.jpg',
+  '/s2.jpg',
+  '/s3.jpg',
+  '/s4.jpg',
+  '/s5.jpg',
+]
 const SLIDE_INTERVAL = 5000
 
 const HIGHLIGHTS = [
@@ -84,9 +91,9 @@ function Home() {
     <>
       <Seo
         title="Amara Remedial Thai Massage | Regents Park, Sydney"
-        description="Thai massage, remedial therapy, deep tissue, hot stone and foot reflexology at 415 Park Road, Regents Park NSW. Open 7 days, HICAPS rebates."
+        description="Thai massage, remedial therapy, deep tissue and hot stone massage at 415 Park Road, Regents Park NSW. Open 7 days, HICAPS rebates."
         path="/"
-        image="/s1.jpg"
+        image="/new_01.jpg"
         jsonLd={[localBusinessLd, websiteLd]}
       />
 
@@ -141,7 +148,7 @@ function Home() {
               <span className="eyebrow">What we do</span>
               <h2 className="section-title">Treatments</h2>
               <p className="section-lead">
-                Five signature treatments, each tailored on the day to what your
+                Four signature treatments, each tailored on the day to what your
                 body actually needs.
               </p>
             </div>

@@ -16,7 +16,7 @@ export const localBusinessLd = {
   currenciesAccepted: 'AUD',
   paymentAccepted: 'Cash, EFTPOS, Credit Card, HICAPS',
   description:
-    'Professional Thai massage, remedial therapy, relaxing oil massage, deep tissue, hot stone and foot reflexology in Regents Park NSW. HICAPS health fund rebates available. Open 7 days.',
+    'Professional Thai massage, remedial therapy, relaxing oil massage, deep tissue and hot stone massage in Regents Park NSW. HICAPS health fund rebates available. Open 7 days.',
   address: {
     '@type': 'PostalAddress',
     streetAddress: '415 Park Road',

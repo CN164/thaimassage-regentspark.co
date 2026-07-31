@@ -109,6 +109,12 @@
 @supports not (aspect-ratio: 1 / 1) {
   .hero__frame {
     height: 420px;
+
+    /* Fixed height can be off-square, so letterbox rather than crop the
+       poster artwork — the QR code and phone numbers sit near the edges. */
+    img {
+      object-fit: contain;
+    }
   }
 }
 

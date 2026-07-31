@@ -33,12 +33,4 @@ export const TREATMENTS = [
     description:
       'Smooth, heated stones are placed on specific parts of the body to ease muscle tension and damaged soft tissue throughout your body. Hot Stone Massage helps relieve muscle pain, reduce stress and anxiety, and promotes deeper, more restful sleep.',
   },
-  {
-    id: 5,
-    title: 'Foot Reflexology',
-    summary: 'Focused work from toes to ankles to restore energy.',
-    image: '/images/Foot_Reflexology.jpg',
-    description:
-      'A secret of stress relief — a deeper massage from the top of the feet, heels, toes to ankles. This focused treatment helps restore energy levels, relieve stress, and impart a feeling of general well-being throughout the body.',
-  },
 ]
